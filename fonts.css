@@ -2,3 +2,13 @@
     src: url(https://pictures.s3.yandex.net/fonts/Ibmplexserif.woff);
     font-family: 'IBM Plex Serif';
 }
+
+@font-face {
+    font-family: MyGreatFont;
+    src:  url(my-great-font.woff) format('woff'),
+          url(my-great-font.eot) format('eot');
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback;
+  }
+  
